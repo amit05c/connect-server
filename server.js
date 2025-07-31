@@ -9,7 +9,7 @@ app.use(cors());
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: "https://your-frontend.vercel.app", // frontend domain
+    origin: "https://connect-frontend-mauve.vercel.app/", // frontend domain
     methods: ["GET", "POST"],
   },
 });
